@@ -8,8 +8,8 @@ $repos = array(
 
 $username = $argv[1];
 $password = $argv[2];
-$branch_name = $argv[3]; // collaborator
-$collaborator = $argv[4]; // branch name
+$branch_name = $argv[3]; // branch name
+$collaborator = $argv[4]; // collaborator
 
 $client = new GitHubClient();
 $client->setCredentials($username, $password);
